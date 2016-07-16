@@ -35,7 +35,7 @@
             <a href="">Moutain Panel</a>
         </div>
         <ul>
-            <li class="active"><a href=""><i class="icon-grid"></i>Dashboard</a></li>
+            <li class="active"><a href=""><i class="icon-grid"></i>Ma bite dans ton cul</a></li>
             <li><a href="slider.html"><i class="icon-layers"></i>Slider</a></li>
             <li><a href="listing-gite.html"><i class="icon-home"></i>Gîtes</a></li>
             <li><a href="gite.html"><i class="icon-pin"></i>GîtesEdit</a></li>
