@@ -674,17 +674,20 @@ h2{
     cursor:pointer;
     background-position: center center;
     background-size: cover;
+    font-size:20px;
 }
 .up-img .up-img-3:before{
     transition: all 0.3s ease 0s;
+    width:124px;
 }
 .up-img .up-img-3:hover::before{
     color: #2c3e50;
-    font-family: "font-admin";
+    font-family: "syna-font";
     line-height: 124px;
-    padding: 0 55px;
+    width:124px;
+    text-align: center;
     display: block;
-    content: "\e916";
+    content: "\e910";
     background-color: rgba(255, 255, 255, 0.7);
 }
 h3{
@@ -699,13 +702,16 @@ h3{
     height: 124px;
     width: 124px;
     border: 1px dashed #bdc3c7;
+    font-size:20px;
 }
 .up-img .up-img-1:before{
     color: #2c3e50;
-    font-family: "font-admin";
+    font-family: "syna-font";
     line-height: 124px;
-    padding: 0 55px;
-    content: "\e91a";
+    width:124px;
+    text-align: center;
+    content: "\e0";
+    display: block;
 }
 .up-img .up-img-2{
     height: 124px;
@@ -714,13 +720,15 @@ h3{
     cursor:pointer;
     background-position: center center;
     background-size: cover;
+    font-size:20px;
 }
 .up-img .up-img-2:before{
     color: #2c3e50;
-    font-family: "font-admin";
+    font-family: "syna-font";
     line-height: 124px;
-    padding: 0 55px;
-    content: "\e909";
+    width:124px;
+    text-align: center;
+    content: "\64";
     transition: all 0.3s ease 0s;
     display: block;
 }
@@ -787,24 +795,26 @@ h3{
 }
 .input-btn-delete:before{
     color: white;
-    content: "X";
+    font-family: syna-font;
+    content: "x";
     font-size: 16px;
-    padding-left: 17px;
+    padding-left: 14px;
 }
 .input-btn-add{
     width: 43px;
     height: 43px;
     border: 1px solid #bdc3c7;
     background: #8c94a4;
-    line-height: 38px;
+    line-height: 43px;
     border-left: 0px;
     cursor: pointer;
 }
 .input-btn-add:before{
     color: white;
+    font-family: syna-font;
     content: "+";
-    font-size: 26px;
-    padding-left: 16px;
+    font-size: 16px;
+    padding-left: 14px;
 }
 .input-option{
     width: calc(100% - 56px);
