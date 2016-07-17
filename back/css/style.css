@@ -1022,9 +1022,30 @@ h3{
     color: #3498db;
 }
 .avis-stat-gite{
-    height: 100px;
     background-position: center center;
     background-size: cover;
     color: white;
+    height: 80px;
+    padding: 10px;
 }
+.avis-stat-gite-content{
+    background-color: rgba(52, 73, 94, 0.7);
+    height: 80px;
+    width: 100%;
+}
+.avis-stat-gite-content i{
+    line-height: 80px; 
+    font-size: 50px !important;
+    padding:0 20px; 
+    color: white;
+}
+.avis-stat-gite-content span{
+    width: 1px;
+    height: 50px;
+    background-color: white;
+;
+}
+.avis-stat-gite-content ul{
+    text-align: center;
+;
 
