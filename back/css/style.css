@@ -521,7 +521,7 @@ body {
 }
 .listing-option{
     float: right;
-    width: 118px;
+    width: 133px;
 }
 .listing-option a{
     text-decoration: none;
@@ -905,7 +905,7 @@ h3{
     overflow: hidden;
     vertical-align: middle;
     width: 55px;
-    margin-right:   10px;
+    margin-right: 15px;
 }
 .switch .switch-container {
     display: inline-block;
