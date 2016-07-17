@@ -854,12 +854,8 @@ h3{
     width: calc(30% - 33px);
 }
 .c-input-proximite .input-adresse{
-    width: calc(50% - 33px);
+    width: calc(70% - 55px);
     margin:0 6px 0 6px;
-}
-.c-input-proximite .input-km{
-    width: calc(20% - 34px);
-    border-right: 0px;
 }
 .checkbox input {
     cursor: pointer;
@@ -972,4 +968,35 @@ h3{
 }
 .listing-slider .input{
     width: 100%;
+}
+/*--------------------------------*/
+/*              AVIS              */
+/*--------------------------------*/
+.table{
+    width: 100%;
+}
+.table, th, td{
+    border: 2px solid #ecf0f1 ;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.table .notice{
+    width: 160px;
+}
+.notice ul{
+    text-align: center;
+}
+.notice ul li{
+    float: left;
+}
+.notice ul li i{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0 5px;
+    text-align: center;
+}
+.avis-active{
+    font-size: 30px !important;
+    color: #3498db;
 }

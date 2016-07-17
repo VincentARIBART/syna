@@ -40,7 +40,7 @@
             <li><a href="gite.html"><i class="icon-pin"></i>GîtesEdit</a></li>
             <li><a href=""><i class="icon-bar-graph-2"></i>Statistiques</a></li>
             <li><a href=""><i class="icon-calendar"></i>Calendrier</a></li>
-            <li><a href=""><i class="icon-pen2"></i>Avis</a></li>
+            <li><a href="avis.html"><i class="icon-pen2"></i>Avis</a></li>
             <li><a href=""><i class="icon-cog"></i>Paramètres</a></li>
             <li><a href="components.html"><i class="icon-Filter"></i>Components</a></li>
             <li><a href="http://Www.aribart-vincent.fr"><i class="icon-drop-05"></i>Par Rocket Loop</a></li>
