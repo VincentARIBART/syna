@@ -198,11 +198,11 @@
 
 @font-face {
     font-family: 'Syna-Font';
-    src:    url('../media/font/Syna-Font.eot?t4okaf');
-    src:    url('../media/font/Syna-Font.eot?t4okaf#iefix') format('embedded-opentype'),
-        url('../media/font/Syna-Font.ttf?t4okaf') format('truetype'),
-        url('../media/font/Syna-Font.woff?t4okaf') format('woff'),
-        url('../media/font/Syna-Font.svg?t4okaf#Syna-Font') format('svg');
+    src:    url('../media/font/Syna-Font.eot?cmobx9');
+    src:    url('../media/font/Syna-Font.eot?cmobx9#iefix') format('embedded-opentype'),
+        url('../media/font/Syna-Font.ttf?cmobx9') format('truetype'),
+        url('../media/font/Syna-Font.woff?cmobx9') format('woff'),
+        url('../media/font/Syna-Font.svg?cmobx9#Syna-Font') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -222,18 +222,20 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-
+.icon-eye_close:before {
+    content: "\e918";
+}
+.icon-drop-03:before {
+    content: "\e910";
+}
+.icon-drop-05:before {
+    content: "\e917";
+}
 .icon-drop-01:before {
     content: "\e90f";
 }
 .icon-drop-02:before {
-    content: "\e910";
-}
-.icon-drop-03:before {
     content: "\e911";
-}
-.icon-drop-05:before {
-    content: "\e917";
 }
 .icon-picto-elec-01:before {
     content: "\e900";
