@@ -237,8 +237,14 @@ body {
 #menumain ul li:last-child a{
     display:block;
     height:48px;
+    color: #fff;
     margin:0;
-    padding-top:7px;
+    padding-top:4px;
+}
+#menumain ul li:last-child a i{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 16px;
 }
 #menumain ul li:last-child a:hover{
     background-color:#4da8e5;
@@ -246,6 +252,7 @@ body {
 #menumain ul li:last-child a:hover i{
     background-color:#4da8e5;
     color:#ffffff;
+
 }
 #menumain ul li i{
     margin: 0 20px;
@@ -295,7 +302,7 @@ body {
 .notif{
     width: 43px;
     height: 43px;
-    line-height: 49px;
+    line-height: 50px;
     border: 1px solid #dfdfdf;
     background-color: white;
     text-align: center;
@@ -335,12 +342,13 @@ body {
     background:white;
     padding:0 10px;
     border: 1px solid #dfdfdf;
-    /*text-align:center;*/
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    line-height: 45px;
 }
 .topbar-option i{
     margin-right:5px;
+    line-height: 45px;
 }
 .topbar-option span{
     opacity: 0;

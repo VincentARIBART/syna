@@ -30,28 +30,28 @@
 
     <div id="menumain">
         <div id="main-logo">
-            <button id="btn-menu" type="button"><p><i class="icon-arrow-l"></i></p></button>
+            <button id="btn-menu" type="button"><p><i class="icon-simply-left"></i></p></button>
             <a href="">Moutain Panel</a>
         </div>
         <ul>
-            <li class="active"><a href=""><i class="icon-meter2"></i>Dashboard</a></li>
-            <li><a href="slider.html"><i class="icon-newspaper"></i>Slider</a></li>
-            <li><a href="listing-gite.html"><i class="icon-location"></i>Gîtes</a></li>
-            <li><a href="gite.html"><i class="icon-location"></i>GîtesEdit</a></li>
-            <li><a href=""><i class="icon-stats-dots"></i>Statistiques</a></li>
+            <li class="active"><a href=""><i class="icon-grid"></i>Dashboard</a></li>
+            <li><a href="slider.html"><i class="icon-layers"></i>Slider</a></li>
+            <li><a href="listing-gite.html"><i class="icon-home"></i>Gîtes</a></li>
+            <li><a href="gite.html"><i class="icon-pin"></i>GîtesEdit</a></li>
+            <li><a href=""><i class="icon-bar-graph-2"></i>Statistiques</a></li>
             <li><a href=""><i class="icon-calendar"></i>Calendrier</a></li>
-            <li><a href=""><i class="icon-quill"></i>Avis</a></li>
-            <li><a href=""><i class="icon-equalizer2"></i>Paramètres</a></li>
-            <li><a href="components.html"><i class="icon-checkmark2"></i>Components</a></li>
-            <li><a href="http://Www.aribart-vincent.fr"><i class="icon-meter2"></i>Propulsé par Syna.fr</a></li>
+            <li><a href=""><i class="icon-pen2"></i>Avis</a></li>
+            <li><a href=""><i class="icon-cog"></i>Paramètres</a></li>
+            <li><a href="components.html"><i class="icon-Filter"></i>Components</a></li>
+            <li><a href="http://Www.aribart-vincent.fr"><i class="icon-drop-05"></i>Par Rocket Loop</a></li>
         </ul>
     </div>
     <div id="topbar">
-        <a href="#" class="notif inline"><i class="icon-checkmark2"></i><span>3</span></a>
-        <a href="#" class="notif inline"><i class="icon-pencil"></i><span>8</span></a>
+        <a href="#" class="notif inline"><i class="icon-liste"></i><span>3</span></a>
+        <a href="#" class="notif inline"><i class="icon-speech-bubble"></i><span>8</span></a>
         <div class="topbar-option">
-            <a href="#"><span>Mon compte</span><i class="icon-user-tie"></i></a>
-            <a href="#"><span>Déconnexion</span><i class="icon-exit"></i></a>
+            <a href="#"><span>Mon compte</span><i class="icon-head"></i></a>
+            <a href="#"><span>Déconnexion</span><i class="icon-goout"></i></a>
         </div>
     </div>
     <div id="content">
