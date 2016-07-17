@@ -1011,3 +1011,10 @@ h3{
     font-size: 30px !important;
     color: #3498db;
 }
+.avis-stat-gite{
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
