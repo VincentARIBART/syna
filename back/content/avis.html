@@ -1,11 +1,163 @@
+<script>
+            $(document).ready(function() {
+                function close_accordion_section() {
+                    $('.accordion-btn').removeClass('active');
+                    $('.accordion-content').slideUp(300).removeClass('open');
+                }
+
+                $('.accordion-btn').click(function(e) {
+                    // Grab current anchor value
+                    var currentAttrValue = $(this).attr('href');
+
+                    if ($(e.target).is('.active')) {
+                        close_accordion_section();
+                    } else {
+                        close_accordion_section();
+
+                        // Add active class to section title
+                        $(this).addClass('active');
+                        // Open up the hidden content panel
+                        $('.accordion-content' + currentAttrValue).slideDown(300).addClass('open');
+                        $('.accordion-title' + currentAttrValue).style.backgroundColor = "#ff0";
+                    }
+
+                    e.preventDefault();
+                });
+            });
+        </script>
 <div class="c-100">
   <div class="title-box-blue">
       Avoir les avis d'un gîte<i>-</i>
   </div>
   <div class="content-box content">
+    
+
+    <div id="listing">
+      <ul>
+          <li>
+              <div class="listing-title listing-b">
+                  <div class="min-gite inline" style=" background-image: url(media/img/gites/background-2.png)">
+                      <div class="icon-circle green"><i class="icon-mountain"></i></div>
+                  </div>
+                  <div class="list-info-b">
+                      <p class="inline list-info-b-25">Gitarium des prés</p>
+                      <p class="inline list-info-b-75">18 Rue de la Toubière 56860 CARNAC</p>   
+                  </div>
+                  <div class="listing-option">
+                      <i class="icon-cog accordion-btn" href="#accordion-1"></i>
+                  </div>
+                  <div id="accordion-1" class="accordion-content">
+                    <table class="table">
+                      <tr>
+                        <th>Gîte</th>
+                        <th>Nom & Prénom</th>
+                        <th>Avis</th>
+                        <th>Note moyenne</th>
+                      </tr>
+                      <tr>
+                        <th>Les fleau bleu</th>
+                        <th>Gomez Sylvain</th>
+                        <th>Chocolate cake sweet ice cream marshmallow powder. Pastry danish cupcake dragée.</th>
+                        <th class="notice">
+                          <ul>
+                            <li><i class="icon-avis-1"></i></li>
+                            <li><i class="icon-avis-2 avis-active"></i></li>
+                            <li><i class="icon-avis-3"></i></li>
+                            <li><i class="icon-avis-4 "></i></li>
+                            <li><i class="icon-avis-5"></i></li>
+                            <li>8.6</li>
+                        </ul>
+                        </th>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="listing-title listing-b">
+                  <div class="min-gite inline" style=" background-image: url(media/img/gites/background-2.png)">
+                      <div class="icon-circle green"><i class="icon-mountain"></i></div>
+                  </div>
+                  <div class="list-info-b">
+                      <p class="inline list-info-b-25">Gitarium des prés</p>
+                      <p class="inline list-info-b-75">18 Rue de la Toubière 56860 CARNAC</p>   
+                  </div>
+                  <div class="listing-option">
+                      <i class="icon-cog accordion-btn" href="#accordion-2"></i>
+                  </div>
+                  <div id="accordion-2" class="accordion-content">
+                    <table class="table">
+                      <tr>
+                        <th>Gîte</th>
+                        <th>Nom & Prénom</th>
+                        <th>Avis</th>
+                        <th>Note moyenne</th>
+                      </tr>
+                      <tr>
+                        <th>Les fleau bleu</th>
+                        <th>Gomez Sylvain</th>
+                        <th>Chocolate cake sweet ice cream marshmallow powder. Pastry danish cupcake dragée.</th>
+                        <th class="notice">
+                          <ul>
+                            <li><i class="icon-avis-1"></i></li>
+                            <li><i class="icon-avis-2 avis-active"></i></li>
+                            <li><i class="icon-avis-3"></i></li>
+                            <li><i class="icon-avis-4 "></i></li>
+                            <li><i class="icon-avis-5"></i></li>
+                            <li>8.6</li>
+                        </ul>
+                        </th>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="listing-title listing-b">
+                  <div class="min-gite inline" style=" background-image: url(media/img/gites/background-2.png)">
+                      <div class="icon-circle green"><i class="icon-mountain"></i></div>
+                  </div>
+                  <div class="list-info-b">
+                      <p class="inline list-info-b-25">Gitarium des prés</p>
+                      <p class="inline list-info-b-75">18 Rue de la Toubière 56860 CARNAC</p>   
+                  </div>
+                  <div class="listing-option">
+                      <i class="icon-cog accordion-btn" href="#accordion-3"></i>
+                  </div>
+                  <div id="accordion-3" class="accordion-content">
+                    <table class="table">
+                      <tr>
+                        <th>Gîte</th>
+                        <th>Nom & Prénom</th>
+                        <th>Avis</th>
+                        <th>Note moyenne</th>
+                      </tr>
+                      <tr>
+                        <th>Les fleau bleu</th>
+                        <th>Gomez Sylvain</th>
+                        <th>Chocolate cake sweet ice cream marshmallow powder. Pastry danish cupcake dragée.</th>
+                        <th class="notice">
+                          <ul>
+                            <li><i class="icon-avis-1"></i></li>
+                            <li><i class="icon-avis-2 avis-active"></i></li>
+                            <li><i class="icon-avis-3"></i></li>
+                            <li><i class="icon-avis-4 "></i></li>
+                            <li><i class="icon-avis-5"></i></li>
+                            <li>8.6</li>
+                        </ul>
+                        </th>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+          </li>
+      </ul>
+    </div>
+
 
   </div>
 </div>
+
 <div class="c-100">
   <div class="title-box-blue">
       Liste des avis<i>-</i>
