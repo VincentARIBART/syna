@@ -6,7 +6,7 @@ html {
 body {
     background: url("../media/img/background/background_yosemite_1.jpg") no-repeat fixed center center / cover ;
     color: #434f64;
-    font-family: "Linotte",sans-serif;
+    font-family: "Bariol",sans-serif;
     font-size: 17px;
     font-weight: 300;
     height: 100%;
@@ -20,12 +20,12 @@ body {
 /*              FONT              */
 /*--------------------------------*/
 @font-face {
-    font-family: 'Linotte';
-    src:url('../media/font/Linotte-SemiBold.eot?tyi268');
-    src:url('../media/font/Linotte-SemiBold.eot?tyi268#iefix') format('embedded-opentype'),
-        url('../media/font/Linotte-SemiBold.ttf?tyi268') format('truetype'),
-        url('../media/font/Linotte-SemiBold.woff?tyi268') format('woff'),
-        url('../media/font/Linotte-SemiBold.svg?tyi268#font-admin') format('svg');
+    font-family: 'Bariol';
+    src:url('../media/font/bariol_regular-webfont.eot?tyi268');
+    src:url('../media/font/bariol_regular-webfont.eot?tyi268#iefix') format('embedded-opentype'),
+        url('../media/font/bariol_regular-webfont.ttf?tyi268') format('truetype'),
+        url('../media/font/bariol_regular-webfont.woff?tyi268') format('woff'),
+        url('../media/font/bariol_regular-webfont.svg?tyi268#font-admin') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -998,10 +998,45 @@ h3{
     width: 100%;
 }
 .table, th, td{
-    border: 2px solid #ecf0f1 ;
-    border-collapse: collapse;
     padding: 10px;
     text-align: left;
+}
+.table tr{
+    color: #7e8183;
+}
+.table tr:first-child{
+    line-height: 35px;
+    color: #434f64 !important;
+}
+.table img{
+    width:33px ;
+    height:33px;
+    border-radius:35px;
+    vertical-align: middle;
+}
+.table-img-green{
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 0px 2px #2ecc71;
+    -moz-box-shadow: 0px 0px 0px 2px #2ecc71;
+    box-shadow: 0px 0px 0px 2px #2ecc71;
+}
+.table-img-blue{
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 0px 2px #3498db;
+    -moz-box-shadow: 0px 0px 0px 2px #3498db;
+    box-shadow: 0px 0px 0px 2px #3498db;
+}
+.table-img-brown{
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 0px 2px #a78f6a;
+    -moz-box-shadow: 0px 0px 0px 2px #a78f6a;
+    box-shadow: 0px 0px 0px 2px #a78f6a;
+}
+tr:nth-child(even) {
+    background: #fafafa
+}
+tr:nth-child(odd) {
+    background: #FFF
 }
 .table .notice{
     width: 160px;
@@ -1049,9 +1084,16 @@ h3{
 .avis-stat-gite-content ul{
     text-align: center;
 }
-
-
-
+.table-option{
+    right:0;
+    margin-right: 10px;
+}
+.table-option a{
+    text-decoration: none;
+    color: #7f8c8d;
+    margin-right:10px;
+    vertical-align: middle;
+}
 .close{
     height: 0;
     overflow: hidden;
