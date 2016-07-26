@@ -919,6 +919,7 @@ h3{
     margin-left: -34px;
     transition-duration: 0.3s;
     width: 130px;
+    text-align: left;
 }
 .switch .on, .switch .off {
     background-color: #3498db;
@@ -996,6 +997,9 @@ h3{
 .table, th, td{
     padding: 10px;
     text-align: left;
+}
+.table td:last-child{
+    text-align: right;
 }
 .table tr{
     color: #7e8183;
@@ -1079,10 +1083,6 @@ tr:nth-child(odd) {
 }
 .avis-stat-gite-content ul{
     text-align: center;
-}
-.table-option{
-    right:0;
-    margin-right: 10px;
 }
 .table-option a{
     text-decoration: none;
