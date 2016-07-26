@@ -19,3 +19,12 @@ $(window).resize(function () {
 			$('#content').removeClass('cleft');
     }
 });
+
+
+$(function(){
+    $('.title-box-blue').on('click', function(){
+        $(this).next().toggleClass('close');
+    });
+});
+
+

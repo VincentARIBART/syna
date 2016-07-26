@@ -19,10 +19,7 @@
    
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/sortable.js"></script>
-    <script src="js/navigation.js"></script>
-    <script src="js/script.js"></script>
+
 
 </head>
 
@@ -93,6 +90,17 @@
             });
  
         </script>
+
+
+
+        <script>
+
+        </script>
+
+
+
+
+
         <script>
 $(function() {
 
@@ -107,5 +115,7 @@ $(function() {
     </div>
 
     </div>
+
+
 
 </body>
