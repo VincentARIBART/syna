@@ -301,10 +301,9 @@ body {
     margin-left:55px;
 }
 .notif{
-    width: 43px;
-    height: 43px;
+    width: 45px;
+    height: 45px;
     line-height: 50px;
-    border: 1px solid #dfdfdf;
     background-color: white;
     text-align: center;
     color: #2c3e50;
@@ -340,9 +339,6 @@ body {
     margin-left:10px;
     overflow: hidden;
     text-align: right;
-    background:white;
-    padding:0 10px;
-    border: 1px solid #dfdfdf;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     line-height: 45px;
