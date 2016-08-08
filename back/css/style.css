@@ -136,6 +136,17 @@ body {
     color: #3498db;
     margin-right: 10px;
 }
+.login-lost #mail{
+    width: calc(100% - 92px);
+}
+.login-input p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login-change input{
+    width: calc(100% - 11px);
+    margin-bottom: 10px;
+}
 /*--------------------------------*/
 /*           MENU MAIN            */
 /*--------------------------------*/
