@@ -1,0 +1,30 @@
+{% extends '::splash.html.twig' %}
+
+{% block title %}{{ parent() }} -- Login{% endblock %}
+
+{% block body %}
+<div id="c-login">
+    <div class="login-logo">
+        <a href=""></a>
+    </div>
+    {% if error %}
+        <div class="alert alert-danger">
+            <i class="icon-blocked"></i> {{ error.messageKey|trans(error.messageData, 'security') }} <i class="icon-cancel-circle"></i>
+        </div>
+    {% endif %}
+    <form action="{{ path("fos_user_security_check") }}" id="login" method="post">
+        <div class="login-input">
+            <div class="login-info">
+                <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" />
+                <input type="password" id="password" id="password" name="_password" required="required" />
+                <a class="btn btn-default inline" id="formSubmit" href="#">Connexion</a>
+            </div>
+            <div class="login-option">
+                <a class="btn-link inline" href="{{ path('fos_user_resetting_request') }}">Mot de passe perdu ?</a>
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+                <label><input type="checkbox" id="remember_me" name="_remember_me" value="on" />Se souvenir de moi</label>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock body %}
