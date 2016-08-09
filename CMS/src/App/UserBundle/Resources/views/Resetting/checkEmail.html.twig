@@ -1,0 +1,19 @@
+{% extends '::splash.html.twig' %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block title %}{{ parent() }} -- Mot de passe oublié ?{% endblock %}
+
+{% block body %}
+    <div id="c-login">
+        <div class="login-logo">
+            <a href=""></a>
+        </div>
+        <div class="login-input">
+            <h2>Mot de passe oublié ?</h2>
+            <p>Un e-mail a été envoyé à l'adresse "<b>{{ email }}</b>".</p>
+            <p>Celui-ci contient un lien sur lequel il te faudra cliquer afin de réinitialiser ton mot de passe.</p>
+            <p><a href="{{ path('fos_user_security_login') }}" class="btn btn-default inline">Connexion</a></p>
+        </div>
+    </div>
+{% endblock body %}

@@ -1,0 +1,28 @@
+{% extends '::splash.html.twig' %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% block title %}{{ parent() }} -- Mot de passe oublié ?{% endblock %}
+
+{% block body %}
+    <div id="c-login">
+        <div class="login-logo">
+            <a href=""></a>
+        </div>
+        <div class="login-input">
+            {% if invalid_username is defined %}
+                <div class="alert alert-danger">
+                    <i class="icon-blocked"></i> {{ 'resetting.request.invalid_username'|trans({'%username%': invalid_username}) }} <i class="icon-cancel-circle"></i>
+                </div>
+            {% endif %}
+            <h2>Mot de passe oublié ?</h2>
+            <p>Golems wave cooldown peeling auto-attack ignite pots backdoor poke support lane #jukes4jesus trade skillshot pentakill last hit.</p>
+            <div class="login-info login-lost">
+                <form action="{{ path('fos_user_resetting_send_email') }}" method="POST" id="login">
+                    <input type="text" value="{% if invalid_username is defined %}{{ invalid_username }}{% endif %}" placeholder="Mail" id="mail" name="username" class="" />
+                    <a class="btn btn-default inline" id="formSubmit" href="#">Envoyer</a>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
