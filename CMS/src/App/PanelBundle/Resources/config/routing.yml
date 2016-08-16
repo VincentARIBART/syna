@@ -1,0 +1,3 @@
+panel_index:
+    path:     /
+    defaults: { _controller: PanelBundle:Index:i }
